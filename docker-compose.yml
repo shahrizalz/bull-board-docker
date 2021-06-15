@@ -11,4 +11,7 @@ services:
       - 3000:3000
     environment:
       REDIS_HOST: host
-      REDIS_PASSWORD: pass
+      REDIS_PORT: 6379
+      REDIS_USERNAME: username
+      REDIS_PASSWORD: password
+      REDIS_USE_TLS: 'true'
